@@ -125,3 +125,43 @@ During development, we encountered several challenges that were resolved through
    - **Issue**: Managing different states of image uploads and previews.
    - **Solution**: Created dedicated state variables and handlers for image selection, validation, and previewing.
 
+### Prompts I used-
+ #### BACKEND:
+  1. "Give architecture for a Blog publishing platform that allows users to create, read, update, and delete
+ blog posts. The platform should support a web interface (React)
+ and a backend API (Node.js ) Frontend: Web: React(Redux toolkit for state management, preferred with SCSS); Backend: Node.js (Express); Database: PostgreSQL"
+2. "give detailed setup for supabase from account creation and extracting db urls for backend api use"
+ 
+ 3. "add a .env and put in following supabase credentials in appropriate var names"
+ 
+ 4. "now i just want the setup and install instructions for npm, node/ express whatever you are using and postgres. I do not know if i already have node/ npm or might have an older version of npm, how to setup remote postgres"
+ 
+ 5. "now how to get jwt secret and postgres db details in .env. can i use supabase to fullfill all env variables for postgres"
+ 
+ 6. "i did all configurations as you said, imported all code added a .env, (which is not named process.env,  should it be?) now what do i do to run it and test for first time"
+ 
+ 7. "use the code i gave you as context for the entire app - for google oauth2 env vars"
+ 
+ 8. "suggest changes whereve necessary to solve the clientid problem with the oauth and oauth2 and whatever errors i just sent you after npm run dev is run"
+ 
+ 9. "still after updating all that in google cloud console , same error.
+   help me debug this"
+ 
+ 10. "give me the urls and sample request payloads to use in postman to test this backend app. if you do not have entire source code i gave you in memory ask for waht you need"
+ 
+ #### FRONTEND:
+ 1. "add dynamic colorful changing background in landing page behind the text, add a blur in front of it."
+ 2. "add a profile page that opens on clicking post card's author component and list all imports used"
+ 3. "change theme data for global use. i want a dark mode pink and purple theme"
+ 4. "nothing happens on clicking signup with google oauth2 doesnt show up. when signing up using email and name keyboard typing doesnt work in name and email textbox. add console logging debug print statements in signup and login so i know if data is reaching the dom"
+ 
+ 5. "add a debug print console log statement that shows a successful api connection with backend on port 5000"
+ 
+ 6. "that did not solve the issue, the text entered in name/email still doesnt appear in the text field in frontend."
+ 
+ 7. "I have since changed backend api logic, it now takes multipart formdata as create post with postimage file, changed routes/posts.js, change the create post page to take post image file as input and list changes in all relevant files to be compatible with new api"
+ 
+ 8. "pinpoint why after creating a post or opening a post from the posts list it shows post not found return to home page instead of showing the post."
+ 9. how do i setup oauth and iframe google client from google button click? give detailed steps for integration.
+  
+ 10. "list any extra setup needed after oauth2 setup. use the backend structure and code i gave in initial prompt for any inference."
