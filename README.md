@@ -1,6 +1,15 @@
 # Project Overview:
 
-PurpleProse is a modern, responsive blogging platform built with React, TypeScript, and Redux. It features a clean, purple-themed design that allows users to create, edit, and share their thoughts with the world.
+PurpleProse is a modern, responsive blogging platform built with React, TypeScript, and Redux. It features a clean, purple-themed design that allows users to create, edit, and share their thoughts with the world.</br>
+*Access the live website here:* https://purpleprose-frontend.onrender.com
+
+## Images:
+![Image](./preview_images/landing.png)</br></br>
+![Image](./preview_images/profile.png)<br /></br>
+![Image](./preview_images/latest.png)<br /></br>
+![Image](./preview_images/create.png)
+
+
 ### Key Features
 
 - **User Authentication**: Sign up, log in, and manage your profile
