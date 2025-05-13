@@ -40,7 +40,7 @@ interface JwtPayload {
   exp: number;
 }
 
-const BASE_URL = import.meta.env.BACKEND_API_URL || 'http://localhost:5000';
+const BASE_URL = import.meta.env.VITE_BACKEND_API_URL || 'http://localhost:5000';
 const API_URL = BASE_URL+'/api';
 // Check if token exists in localStorage
 const token = localStorage.getItem('token');
