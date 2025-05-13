@@ -18,7 +18,10 @@ const userRoutes = require('./routes/users');
 
 const app = express();
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+  origin: process.env.CLIENT_URL || 'http://localhost:8080',
+  credentials: true, // if using cookies or auth headers
+}));
 app.use(passport.initialize());
 
 // Sync DB
